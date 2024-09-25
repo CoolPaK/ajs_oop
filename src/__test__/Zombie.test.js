@@ -1,4 +1,4 @@
-import Zombie from './__test__/Zombie';
+import Zombie from '../js/Zombie';
 
 describe('Тесты для Zombie', () => {
 

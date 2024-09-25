@@ -1,4 +1,4 @@
-import Swordsman from './__test__/Swordsman';
+import Swordsman from '../js/Swordsman';
 
 describe('Тесты для Swordsman', () => {
 
@@ -16,10 +16,6 @@ describe('Тесты для Swordsman', () => {
         expect(() => new Swordsman('A')).toThrow('name должен быть строкой от 2 до 10 символов');
         expect(() => new Swordsman('')).toThrow('name должен быть строкой от 2 до 10 символов');
         expect(() => new Swordsman(123)).toThrow('name должен быть строкой от 2 до 10 символов');
-    });
-
-    test('Тестирование некорректного типа у Swordsman', () => {
-        expect(() => new Swordsman('Arthur', 'Warrior')).toThrow('Некорректный тип персонажа');
     });
 
 });

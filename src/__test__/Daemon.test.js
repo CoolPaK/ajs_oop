@@ -1,4 +1,4 @@
-import Daemon from './__test__/Daemon';
+import Daemon from '../js/Daemon';
 
 describe('Тесты для Daemon', () => {
 

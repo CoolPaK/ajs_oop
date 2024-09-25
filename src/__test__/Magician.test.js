@@ -1,4 +1,4 @@
-import Magician from './__test__/Magician';
+import Magician from '../js/Magician';
 
 describe('Тесты для Magician', () => {
 

@@ -1,4 +1,4 @@
-import Bowerman from './__test__/Bowerman';
+import Bowerman from '../js/Bowerman';
 
 describe('Тесты для Bowerman', () => {
 

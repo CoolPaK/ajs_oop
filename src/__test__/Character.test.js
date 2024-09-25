@@ -1,4 +1,4 @@
-import Character from './Character';
+import Character from '../js/Character';
 
 test('Создание персонажа с некорректным именем', () => {
     expect(() => new Character('A', 'Bowman')).toThrow('name должен быть строкой от 2 до 10 символов');

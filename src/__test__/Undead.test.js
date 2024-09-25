@@ -1,4 +1,4 @@
-import Undead from './__test__/Undead';
+import Undead from '../js/Undead';
 
 describe('Тесты для Undead', () => {
 
