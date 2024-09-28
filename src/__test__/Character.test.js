@@ -1,3 +1,4 @@
+import Bowerman from '../js/Bowerman';
 import Character from '../js/Character';
 
 test('Создание персонажа с некорректным именем', () => {
@@ -9,7 +10,7 @@ test('Создание персонажа с некорректным типом
 });
 
 test('Создание персонажа Bowerman', () => {
-    const character = new Character('Robin', 'Bowman');
-    expect(character.attack).toBe(25);
-    expect(character.defence).toBe(25);
+    const character = new Bowerman('Robin'); // Создаем персонажа Bowerman
+    expect(character.attack).toBe(25); // Проверяем значение атаки
+    expect(character.defence).toBe(25); // Проверяем значение защиты
 });
